@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+   padding: 0;
+}
+body{
+    background-color: #EEE;
+}
+.con{
+    max-width: 1000px;
+    height: 1100px;;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.logo{
+    width: 150px;
+   border: 1px solid black;
+   border-radius: 50%;
+    float: left;
+}
+.hed-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.hed-con{
+float: right;
+padding: 30px;
+}
+.hed-con a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.hed-con a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: auto;
+}
+#parsonal-sec{
+
+}
+.conm{
+    margin-bottom: 20px;
+
+}
+#left-div{
+    width:30%;
+    float: left;
+
+}
+#right-div{
+   width: 70%;
+   float: left;
+}
+.comn-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.btmm{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+.btmm a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.btmm  p{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}

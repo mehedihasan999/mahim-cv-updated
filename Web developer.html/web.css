@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: cursive ;
+    text-align: center;
+    cursor: pointer;
+    height: 500px;
+}
+.web-developer{
+    width: 350px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background:url(webbg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.web_head h1{
+    text-decoration: underline;
+    font-size: 3rem;
+    text-transform: uppercase;
+
+}
+.web_sarvicws ul{
+    list-style:none;
+}
+.web_sarvicws ul li {
+    font-size: 1.2rem;
+    font-family: monospace;
+    margin: 9px;
+}
+.web_sarvicws ul li:hover{
+    transition: .5s;
+    color: goldenrod;
+    font-size: 1.3rem;
+}
+button{
+    background: transparent;
+    border: 1px solid white;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 5px 0;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 30px;
+}
+button:hover{
+    color: goldenrod;
+    transition: .5s;
+}
